@@ -1,11 +1,11 @@
 # camel-amqp-rabbit-example
 
-##Camel RabbitMQ component example
+## Camel RabbitMQ component example
 
-####Preparing RabbitMQ
+#### Preparing RabbitMQ
     This example requires that RabbitMQ Server is up and running.
 
-####Pushing samples to queue
+#### Pushing samples to queue
 
     java -classpath .:./lib/* MessagePublisherClient <RABBITMQ_HOST> <RABBITMQ_PORT> <SAMPLE_COUNT>
    
@@ -14,9 +14,9 @@
     java -classpath .:./lib/* RabbitMQComponentExample localhost 5672 guest guest 5
    
 
-##Camel AMQP component example - TPS Calculator 
+## Camel AMQP component example - TPS Calculator 
 
-####Run the command given below to start the tool:  
+#### Run the command given below to start the tool:  
 
     java -classpath .:./lib/* RabbitMQAMQPExample <RABBITMQ_HOST> <QUEUE_TO_MONITOR> <COUNT_FOR_TPS> <LOCATION_TO_WRITE>
 
