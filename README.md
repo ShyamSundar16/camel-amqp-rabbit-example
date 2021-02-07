@@ -31,6 +31,10 @@ This command has to be executed in the same location where lib is located.
 4. Fourth argument is the file location where the log file will be generated, which gives the information in more readable format.
 
 **NOTE** : Copy the required jars in lib folder, and execute the corresponding tool.
-   
 
+####
 
+#### Help & Feedback
+If you hit any problem or have some feedback let me know at,
+1. [LinkedIn Profile](https://www.linkedin.com/in/shaam-sundar-1405/)
+2. [Gmail Account](shaamsundar16@gmail.com)
