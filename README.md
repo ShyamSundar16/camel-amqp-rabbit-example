@@ -32,7 +32,10 @@ This command has to be executed in the same location where lib is located.
 
 **NOTE** : Copy the required jars in lib folder, and execute the corresponding tool.
 
-####
+#### Docker for quick run
+```
+docker run --name docker-rabbit -p 5672:5672 -p 5673:5673 -p 15672:15672 rabbitmq:3-management```
+```
 
 #### Help & Feedback
 If you hit any problem or have some feedback let me know at,
