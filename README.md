@@ -3,8 +3,8 @@
 ## Camel RabbitMQ component example
 
 #### Preparing RabbitMQ
-    This example requires that RabbitMQ Server is up and running.
-
+  This example requires RabbitMQ Server which is up and running. Refer [Docker image for RabbitMQ](https://github.com/ShyamSundar16/camel-amqp-rabbit-example#docker-for-quick-run) .
+  
 #### Pushing samples to queue
 
     java -classpath .:./lib/* MessagePublisherClient <RABBITMQ_HOST> <RABBITMQ_PORT> <SAMPLE_COUNT>
