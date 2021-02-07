@@ -9,6 +9,10 @@ import org.apache.camel.impl.DefaultCamelContext;
 import java.util.Arrays;
 import java.util.Calendar;
 
+/**
+ * Created by Shyam Sundar on 04/02/21.
+ */
+
 public class RabbitMQComponentExample {
     public static void main(String[] args) throws Exception {
         String host = args[0];

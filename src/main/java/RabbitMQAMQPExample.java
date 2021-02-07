@@ -17,6 +17,10 @@ import java.util.UUID;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 
+/**
+ * Created by Shyam Sundar on 04/02/21.
+ */
+
 public class RabbitMQAMQPExample {
     public static void main(String[] args) throws Exception {
         String host = args[0];
@@ -43,7 +47,6 @@ public class RabbitMQAMQPExample {
         AMQPComponent component = new AMQPComponent();
         CachingConnectionFactory connectionFactory = new CachingConnectionFactory();
         RMQConnectionFactory targetConnectionFactory = new RMQConnectionFactory();
-//        targetConnectionFactory.setHost(host);
         String hostList = "";
         if (!host.contains(",")) {
             hostList = "amqp://" + host;
